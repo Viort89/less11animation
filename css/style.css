@@ -1,0 +1,260 @@
+/*
+.anim{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+}
+
+.sone{
+    background-color: rgb(255, 96, 123);
+    animation: sonemove 2s;
+}
+
+@keyframes sonemove{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateY(100%);
+    }
+
+    50%{
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.stwo{
+    background-color: rgb(255, 189, 48);
+    animation: stwomove 2s;
+}
+
+@keyframes stwomove{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-100%) translateY(100%);
+    }
+
+    75%{
+        transform: translateY(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.sthree{
+    background-color: rgb(53, 150, 253);
+    animation: sthreemove 2s;
+}
+
+@keyframes sthreemove{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateX(100%);
+    }
+
+    50%{
+        transform: translateX(100%) translateY(-100%);
+    }
+
+    75%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.sfour{
+    background-color: blueviolet;
+    animation: sfourmove 2s;
+}
+
+@keyframes sfourmove{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateY(-100%);
+    }
+
+    50%{
+        transform: translateX(-100%) translateY(-100%);
+    }
+
+    75%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+*/
+
+.anim{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+}
+
+.sone{
+    background-color: rgb(255, 96, 123);
+    animation: sonemove 2s linear;
+}
+
+@keyframes sonemove{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateY(100%);
+    }
+
+    50%{
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.stwo{
+    background-color: rgb(255, 189, 48);
+    animation: stwomove 2s linear;
+}
+
+@keyframes stwomove{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-100%) translateY(100%);
+    }
+
+    75%{
+        transform: translateY(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.sthree{
+    background-color: rgb(53, 150, 253);
+    animation: sthreemove 2s linear;
+}
+
+@keyframes sthreemove{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateX(100%);
+    }
+
+    50%{
+        transform: translateX(100%) translateY(-100%);
+    }
+
+    75%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.sfour{
+    background-color: blueviolet;
+    animation: sfourmove 2s linear;
+}
+
+@keyframes sfourmove{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateY(-100%);
+    }
+
+    50%{
+        transform: translateX(-100%) translateY(-100%);
+    }
+
+    75%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0)
+    }
+}
+
